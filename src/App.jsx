@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="container">
       <h1>Phonebook</h1>
-      <ContactForm onAdd={addContact} />
-      <SearchBox value={search} onSearch={setSearch} />
-      <ContactList onDelete={deletePhone} contacts={searchContacts} />
+      <ContactForm />
+      <SearchBox />
+      <ContactList />
     </div>
   );
 }
